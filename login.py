@@ -46,6 +46,7 @@ class Kuas_EP:
 				if x['name'] == '__EVENTVALIDATION':
 					payload['__EVENTVALIDATION'] = x['value']
 				#print[x['name']]
+				
 			#學Browser headers
 			headers['Accept'] = "zh-tw,en-us;q=0.7,en;q=0.3"
 			headers['Accept-Encoding'] = "gzip, deflate"
